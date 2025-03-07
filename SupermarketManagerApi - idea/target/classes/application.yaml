@@ -1,0 +1,24 @@
+server:
+  port: 9291
+spring:
+  application:
+    name: market-server
+  datasource:
+    druid:
+      url: jdbc:mysql://localhost:3306/supermarket_manager?characterEncoding=UTF-8&useUnicode=true&useSSL=false&tinyInt1isBit=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai
+      username: root
+      password: 123456
+      driver-class-name: com.mysql.cj.jdbc.Driver
+  redis:
+    host: localhost
+    port: 6379
+    password:
+  mvc:
+    async:
+      request-timeout: 20000
+mybatis-plus:
+  mapper-locations: classpath:com/rabbiter/market/mapper/*Mapper.xml
+logging:
+  level:
+    cn.dingli.market.mapper: debug
+
