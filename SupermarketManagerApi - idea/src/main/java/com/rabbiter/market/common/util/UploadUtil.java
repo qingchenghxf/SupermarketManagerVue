@@ -18,8 +18,8 @@ public class UploadUtil {
 	private static final String ENDPOINT = "http://oss-cn-chengdu.aliyuncs.com";
 	private static final String BUCKET_NAME = "zyl-9";
 
-	private static final String ACCESS_KEY_ID = "";
-	private static final String ACCESS_KEY_SECRET = "";
+	private static final String ACCESS_KEY_ID = "LTAI5tGxrbz4oXKzQ63LZzQn";
+	private static final String ACCESS_KEY_SECRET = "Do4mpXNQ4bOTzpNqrUhTeQSSwrXfHe";
 	private static  final String path = "wolf2w-70";
 	//MultipartFile 对象
 //	public static String uploadAli(MultipartFile file,String path_suffix) throws Exception {
